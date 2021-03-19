@@ -124,9 +124,6 @@ namespace DemoProject
 			{
 				DrawLine(_spriteBatch, new Vector2(StartPosition.X * TileSize, StartPosition.Y * TileSize), new Vector2(EndPosition.X, EndPosition.Y), Color.White);
 
-
-				//var collisionPoint = DDARayTracer.Cast(new System.Numerics.Vector2(StartPosition.X, StartPosition.Y), angleVector, TileMap);
-
 				if (CollisionPoint != null)
 				{
 					_spriteBatch.Draw(PixelTexture, new Rectangle(new Vector2(CollisionPoint.Value.X * TileSize, CollisionPoint.Value.Y * TileSize).ToPoint() - new Point(2), new Point(4)), null, Color.Yellow, 0f, Vector2.Zero, SpriteEffects.None, 1f);
