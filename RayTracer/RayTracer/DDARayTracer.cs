@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Numerics;
 
-namespace RayTracer
+namespace Zintom.RayTracer
 {
     public interface IRayTraceable
     {

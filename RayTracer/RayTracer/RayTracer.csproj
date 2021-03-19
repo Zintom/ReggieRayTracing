@@ -4,6 +4,26 @@
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <Authors>Zintom</Authors>
+    <Product>DDARayTracer</Product>
+    <PackageId>DDARayTracer</PackageId>
+    <Description>Provides a very fast implementation of the DDA Ray Casting Algorithm for .NET 5 using System.Numerics for hardware accelerated Vector math.
+
+For 2D tile based scenes.</Description>
+    <RepositoryUrl>https://github.com/Zintom/ReggieRayTracing</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>ray tracing, dda, dda ray tracing, ray tracing .net</PackageTags>
+    <PackageLicenseFile>license.txt</PackageLicenseFile>
+    <RootNamespace>Zintom.RayTracer</RootNamespace>
+    <AssemblyName>ZintomRayTracer</AssemblyName>
+    <Version>1.0.1</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\license.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

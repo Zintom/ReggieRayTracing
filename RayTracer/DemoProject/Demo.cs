@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using RayTracer;
+using Zintom.RayTracer;
 using System;
 
 namespace DemoProject
